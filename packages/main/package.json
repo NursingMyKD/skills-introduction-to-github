@@ -1,0 +1,13 @@
+{
+  "name": "main",
+  "version": "0.0.1",
+  "private": true,
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "electron": "^29.0.0"
+  }
+}

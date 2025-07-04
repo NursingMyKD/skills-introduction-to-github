@@ -1,0 +1,20 @@
+{
+  "name": "icu-staffing-dashboard",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter renderer dev",
+    "build": "pnpm --filter renderer build",
+    "start": "electron packages/main/main.js"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.6.10",
+    "@types/node": "^20.8.0",
+    "electron": "^29.0.0",
+    "pnpm": "^9.0.0",
+    "typescript": "^5.4.0",
+    "vite": "^5.0.0"
+  }
+}
